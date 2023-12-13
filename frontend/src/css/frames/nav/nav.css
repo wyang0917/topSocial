@@ -1,0 +1,66 @@
+/* NAV */
+
+nav {
+  width: 100%;
+  background-color: var(--color-white);
+  padding: 0.7rem 0;
+}
+
+nav .nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+nav .logo {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  user-select: none;
+  color: var(--color-black);
+  margin: 0.2rem;
+}
+
+nav .logo a {
+  text-decoration: none;
+  color: var(--color-black)
+}
+
+nav .search-bar{
+  background-color: var(--panel-bgcolor);
+  width: 20vw;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+nav .bi.bi-search{
+  margin: 0 1rem;
+}
+
+nav input[type="text"]{
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+nav .create{
+  display: flex;
+  width: 15rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav .btn {
+  width: 6rem;
+  color: var(--color-white);
+  border-radius: var(--btn-border-radius);
+  padding: var(--btn-padding);
+  border: none;
+  box-shadow: none;
+}
+
+nav .btn.btn-primary {
+  background-color: var(--color-primary);
+}
